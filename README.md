@@ -1,8 +1,11 @@
 # Cortex Resource Manager
 
-An MCP (Model Context Protocol) server for managing resource allocation, MCP server lifecycle, and Kubernetes workers in the cortex automation system.
+> Part of the [Cortex Ecosystem](https://github.com/ry-ops/cortex) - Multi-agent AI system for autonomous repository management
+
+An MCP (Model Context Protocol) server for managing resource allocation, MCP server lifecycle, and Kubernetes workers in the Cortex automation system.
 
 **Repository**: [ry-ops/cortex-resource-manager](https://github.com/ry-ops/cortex-resource-manager)
+**Main Cortex Repository**: [ry-ops/cortex](https://github.com/ry-ops/cortex)
 
 ## Features
 
@@ -34,7 +37,11 @@ An MCP (Model Context Protocol) server for managing resource allocation, MCP ser
 
 ## Overview
 
-The Cortex Resource Manager provides 16 tools organized into 3 categories:
+The Cortex Resource Manager provides 16 tools organized into 3 categories.
+
+This MCP server is part of Cortex's infrastructure division, enabling dynamic resource allocation across the multi-divisional organization. See the [Cortex Holdings Structure](https://github.com/ry-ops/cortex/blob/main/coordination/divisions/README.md) for more information about how Cortex operates as a multi-divisional automation system.
+
+### Tool Categories
 
 1. **Resource Allocation (5 tools)**: Core orchestration API for managing cortex job resources
    - `request_resources` - Request MCP servers and workers for a job
